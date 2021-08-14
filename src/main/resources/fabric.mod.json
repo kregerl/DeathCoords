@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "deathcoords",
+  "version": "${version}",
+  "name": "Death Coords",
+  "description": "Displays your death coordinates on screen when you die",
+  "authors": [
+    "AreUThreateningMe"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/deathcoords/DeathCoordsLogo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.loucaskreger.deathcoords.DeathCoords"
+    ]
+  },
+  "mixins": [
+    "deathcoords.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
