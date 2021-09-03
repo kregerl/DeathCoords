@@ -9,7 +9,8 @@
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/kregerl/DeathCoords",
+    "issues": "https://github.com/kregerl/DeathCoords/issues"
   },
   "license": "CC0-1.0",
   "icon": "assets/deathcoords/DeathCoordsLogo.png",
@@ -27,8 +28,5 @@
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
